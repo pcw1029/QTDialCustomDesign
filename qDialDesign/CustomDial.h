@@ -22,8 +22,9 @@ private slots:
     void onLineEditValueChanged();
 
 private:
-    QLabel *valueLabel;
-    QLineEdit *lineEdit;
+    QLabel *lbName;
+    QLabel *lbAngleValue;
+    QLineEdit *leSetAngle;
 
     void updateWidgetPositions();
 };
